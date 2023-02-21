@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+#nav p {
+  color: #111b47;
+  font-weight: 900;
+  font-size: 30px;
+  width: 40%;
+}
+#nav button {
+  margin: 0 6rem;
+  background-color: #111b47;
+  width: 10rem;
+  height: 2.6rem;
+  color: white;
+  height: 2rem;
+  border-radius: 2px;
+}
+.sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hambug {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.burg {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec li {
+  list-style: none;
+  padding: 0 2rem;
+  color: #505f98;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  text-align: center;
+}
+.content h1 {
+  padding-top: 10rem;
+  color: #111b47;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+.content p {
+  color: #505f98;
+}
+#p {
+  padding-top: 2rem;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.btn1 button {
+  margin-right: 1rem;
+}
+.pagetwo {
+  display: flex;
+  /* height: 140vh; */
+  padding-top: 5rem;
+  align-items: center;
+}
+.pagewrite {
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+.pagewrite h1 {
+  font-size: 2.6rem;
+  color: #111b47;
+  font-weight: 500;
+}
+.pagewrite p {
+  color: #505f98;
+}
+
+.btnkit {
+  background-color: #111b47;
+  font-size: 0.8rem;
+  color: white;
+  width: 8rem;
+}
+.btnl {
+  border: 2px solid #111b47;
+  color: #111b47;
+  width: 8rem;
+}
+.pagethree {
+  padding: 2rem;
+}
+.img3 {
+  width: 100%;
+}
+.pagethree h1 {
+  font-size: 2.6rem;
+  color: #111b47;
+  font-weight: 500;
+}
+/* .pagethree1 {
+  height: 90vh;
+} */
+
+.big h4 {
+  color: #111b47;
+}
+.big p {
+  color: #505f98;
+}
+.pagewrite3 p {
+  color: #505f98;
+}
+.purchase {
+  background-color: #e7ecff;
+  padding: 4rem 2rem;
+}
+.purchase h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  font-weight: 500;
+  color: #111b47;
+}
+.purchase p {
+  text-align: center;
+  color: #505f98;
+  font-size: 0.9rem;
+}
+.purchase h2 {
+  font-size: 2.5rem;
+  color: #222f65;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.purchase h6 {
+  color: #5d6970;
+  text-align: center;
+}
+#p1 {
+  color: #111b47;
+  font-size: 13px;
+  font-weight: 500;
+}
+.ul2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+  justify-content: center;
+}
+.color {
+  color: #111b47;
+  font-weight: 900;
+}
+#color {
+  color: #939ea4;
+  font-size: 0.9rem;
+  position: absolute;
+  left: 5rem;
+}
+.footer {
+  background-color: #d9e1f9;
+}
+.foot button {
+  position: absolute;
+  right: 5rem;
+}
+.line {
+  height: 1px;
+  background-color: #c1ccd3;
+  width: 83%;
+}
+.icon {
+  display: flex;
+  margin: 0 15rem;
+}
+.nav2 {
+  display: flex;
+  margin: 0 15rem;
+}
+.nav2 li {
+  padding: 1rem;
+  color: #505f98;
+}
+.icon li {
+  padding: 1rem;
+  color: #b0b8bc;
+}
+.burger {
+  display: none;
+}
+.foot4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 940px) {
+  .sec {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .hambug {
+    display: block;
+  }
+  .sec1 {
+    display: none;
+  }
+  .pagetwo {
+    flex-direction: column;
+  }
+  .pahewrite {
+    padding: 2rem;
+  }
+}
+@media (max-width: 765px) {
+  .foot4 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 765px) {
+  .pagewrite {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 680px) {
+  .pagethree1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .piggi {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pagefive {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 580px) {
+  #color {
+    display: none;
+  }
+  .content h1 {
+    padding-top: 5rem;
+  }
+  .foot button {
+    display: none;
+  }
+}
